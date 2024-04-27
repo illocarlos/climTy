@@ -1,0 +1,16 @@
+:root{
+    --color-primary:rgb(158, 141, 255);
+        --color-secundary:#F59E0B;
+}
+
+html{
+    font-size: 62,5%;
+}
+body{
+    background-image: url('/public/bg_clima.jpg');
+    height: 100vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    color: var(--color-primary);
+    font-size: 2rem;
+}
