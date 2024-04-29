@@ -1,11 +1,16 @@
 import './App.modules.css'
-function App() {
+import Form from './components/form/Form'
+import useWeather from './hooks/useWeather'
 
+function App() {
+  const { fetchWeather } = useWeather()
   return (
     <>
       <h1 className='title'>hola mundo</h1>
       <div className='container'>
-        <p>1</p>
+        <Form
+          fetchWeather={fetchWeather}
+        />
         <p>2</p>
       </div>
     </>
