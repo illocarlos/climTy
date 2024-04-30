@@ -6,7 +6,7 @@ import Alert from '../Alert/Alert'
 
 
 type formProp = {
-  fetchWeather: () => void
+  fetchWeather: (search: searchType) => Promise<void>
 }
 
 const Form = ({ fetchWeather }: formProp) => {
@@ -29,7 +29,7 @@ const Form = ({ fetchWeather }: formProp) => {
     if (Object.values(search).includes("")) {
       return setAlert("Hay campos vacios, rellenelos por favor")
     }
-    fetchWeather()
+    fetchWeather(search)
   }
   return (
     <form onSubmit={handleSubmit} className='form' action="">

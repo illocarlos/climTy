@@ -6,7 +6,7 @@ function App() {
   const { fetchWeather } = useWeather()
   return (
     <>
-      <h1 className='title'>hola mundo</h1>
+      <h1 className='title'>search weather</h1>
       <div className='container'>
         <Form
           fetchWeather={fetchWeather}
