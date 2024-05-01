@@ -1,6 +1,6 @@
 import { countries } from '../../data/countries'
 import { ChangeEvent, FormEvent, useState } from 'react'
-import './Form.modules.css'
+import './Form.css'
 import { searchType } from '../../types/type'
 import Alert from '../Alert/Alert'
 
