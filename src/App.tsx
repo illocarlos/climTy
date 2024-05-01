@@ -1,6 +1,6 @@
-import './App.modules.css'
+import './App.css'
 import Alert from './components/Alert/Alert'
-import Form from './components/Form/Form'
+import Form from './components/Form/Form.tsx'
 import Spiner from './components/Spiner/Spiner'
 import { WeatherDetails } from './components/WeatherDetails/WeatherDetails'
 import useWeather from './hooks/useWeather'
