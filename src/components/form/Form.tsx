@@ -27,8 +27,9 @@ const Form = ({ fetchWeather }: formProp) => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     if (Object.values(search).includes("")) {
-      return setAlert("Hay campos vacios, rellenelos por favor")
+      return setAlert("There are empty fields, please fill them in.")
     }
+    setAlert("")
     fetchWeather(search)
   }
   return (

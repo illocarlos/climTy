@@ -1,0 +1,27 @@
+.container-Details{
+    background-color: rgba(59, 57, 57, 0.709);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.temp-now{
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.tem-mx-mn{
+display: flex;
+justify-content: center;
+gap: 5rem;
+}
+
+.tem-mx-mn p{
+   font-weight: 900; 
+}
+
+.tem-mx-mn span{
+   font-weight: 400; 
+}

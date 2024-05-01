@@ -14,3 +14,13 @@ body{
     color: var(--color-primary);
     font-size: 2rem;
 }
+
+
+@media (max-width:768px) {
+    body{
+    height: 165vh;
+
+    }
+
+
+}
